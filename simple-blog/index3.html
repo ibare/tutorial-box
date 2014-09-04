@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Blog</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js" type="text/javascript"></script>
+  <script src="js/app3.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <script id="tmpl-post" type="x-tmpl-mustache">
+    <h2>{{title}}</h2>
+    <p class="date">{{postdate}}</p>
+    <p class="article">{{&article}}</p>
+  </script>
+  <script id="tmpl-message" type="x-tmpl-mustache">
+    <p>{{message}}</p>
+  </script>
+  <script id="tmpl-page" type="x-tmpl-mustache">
+    <a href="#{{index}}">{{index}}</a>
+  </script>
+</head>
+<body>
+  <h1>Just Simple Blog</h1>
+
+  <div id="post">
+
+  </div>
+
+  <div id="paging">
+
+  </div>
+
+
+  <div id="command">
+    <a href="post3.html">새로운 글 쓰기</a>
+  </div>
+</body>
+</html>

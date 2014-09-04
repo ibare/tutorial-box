@@ -132,12 +132,12 @@ function myApp() {
 
       alert('저장되었습니다.');
 
-      location.href = 'index.html#'+blog.getLatestPostId();
+      location.href = 'index4.html#'+blog.getLatestPostId();
       return false;
     };
 
     Util.getElementById('cancel').onclick = function(event) {
-      location.href = 'index.html';
+      location.href = 'index4.html';
     };
   }
 

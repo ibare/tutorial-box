@@ -82,13 +82,13 @@ function myApp() {
 
         alert('저장되었습니다.');
 
-        location.href = 'index.html#'+article.total;
+        location.href = 'index3.html#'+article.total;
 
         return false;
       };
 
       document.getElementById('cancel').onclick = function(event) {
-        location.href = 'index.html';
+        location.href = 'index3.html';
       };
     }
   }
