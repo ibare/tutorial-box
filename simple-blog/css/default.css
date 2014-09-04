@@ -1,0 +1,109 @@
+body {
+  margin: 50px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #777;
+}
+
+#post {
+  margin-top: 30px;
+}
+
+#post h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #444;
+}
+
+#post .date {
+  font-size: 14px;
+  color: #999;
+  margin-top: -20px;
+}
+
+#post .article {
+  margin-top: 50px;
+  font-size: 18px;
+  color: #666;
+  line-height: 150%;
+  max-width: 700px;
+}
+
+#paging {
+  margin-top: 50px;
+}
+
+#paging a {
+  font-size: 14px;
+  margin-right: 20px;
+  padding: 8px;
+  color: #555;
+  border: 1px solid #bbb;
+  text-decoration: none;
+}
+
+#paging a:hover {
+  background-color: pink;
+  color: #fff;
+  border: 1px solid red;
+}
+
+#command {
+  margin-top: 80px;
+}
+
+#command a {
+  font-size: 16px;
+  padding: 18px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: #0099cc;
+  border-bottom: 5px solid #047499;
+  text-decoration: none;
+}
+
+#command a:hover {
+  background-color: #02a8df;
+  border-bottom: 5px solid #0099cc;
+}
+
+#postForm input[type=text], #postForm textarea {
+  width: 600px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#postForm textarea {
+  height: 400px;
+}
+
+#postForm .btn {
+  border: none;
+  font-size: 16px;
+  padding: 18px;
+  padding-bottom: 10px;
+  color: #fff;
+  background-color: #0099cc;
+  border-bottom: 5px solid #047499;
+  text-decoration: none;
+}
+
+#postForm .btn:hover {
+  background-color: #02a8df;
+  border-bottom: 5px solid #0099cc;
+}
+
+#postForm .btn.cancel {
+  background-color: #f26d7d;
+  border-bottom: 5px solid #ed145b;
+}
+
+#postForm .btn.cancel:hover {
+  background-color: #f5989d;
+  border-bottom: 5px solid #f26d7d;
+}
+
+
+
